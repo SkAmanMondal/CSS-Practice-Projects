@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  padding: 10px;
+}
+#main .section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+#main .section:nth-child(1) {
+  background-image: url(https://cdn.pixabay.com/photo/2025/08/09/18/23/knight-9765068_1280.jpg);
+}
+#main .section:nth-child(2) {
+  background-image: url(https://cdn.pixabay.com/photo/2025/09/10/11/30/grief-9826220_1280.jpg);
+}
+#main .section:nth-child(3) {
+  background-image: url(https://cdn.pixabay.com/photo/2022/10/18/06/57/cat-7529439_1280.jpg);
+}
+#main .section:nth-child(4) {
+  background-image: url(https://cdn.pixabay.com/photo/2025/08/27/02/43/flower-9799036_1280.jpg);
+}
+#main .section:nth-child(5) {
+  background-image: url(https://cdn.pixabay.com/photo/2023/12/04/17/16/woman-8429860_1280.jpg);
+}
+#main .section:hover {
+  flex-grow: 2.3;
+}/*# sourceMappingURL=style.css.map */

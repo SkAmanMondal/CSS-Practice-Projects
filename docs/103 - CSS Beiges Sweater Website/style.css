@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Camiro;
+    src: url(./fonts/Camiro.ttf);
+}
+@font-face{
+    font-family: Cocogoose;
+    src: url(./fonts/Cocogoose-Pro-Regular-trial.ttf);
+}
+@font-face {
+    font-family: Nexa;
+    src: url(./fonts/Nexa-Heavy.ttf);
+}
+@font-face {
+    font-family: CaviarDreams;
+    src: url(./fonts/CaviarDreams_Italic.ttf);
+}
+@font-face {
+    font-family: Recoleta;
+    src: url(./fonts/Recoleta-RegularDEMO.otf);
+}
+@font-face {
+    font-family: Bellavoir;
+    src: url(./fonts/BellavoirSerif_PERSONAL_USE_ONLY.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(207, 207, 187);
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#nav-top{
+    /* background-color: blueviolet; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+#nav-left a{
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: Recoleta;
+}
+#nav-middle h3{
+    font-size: 30px;
+    font-family: Camiro;
+}
+#nav-right a{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Recoleta;
+}
+#hero{
+    /* background-color: burlywood; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1{
+    font-size: 265px;
+    font-family: Cocogoose;
+    font-weight: 500;
+}
+#hero .images{
+    object-fit: cover;
+}
+#image1{
+    height: 250px;
+    width: 200px;
+    object-position: top;
+    position: absolute;
+    right: 42%;
+    top: 50%;
+}
+#image2{
+    height: 200px;
+    position: absolute;
+    right: 33%;
+    top: 66%;
+}
+#image3{
+    height: 320px;
+    position: absolute;
+    right: 17%;
+    top: 38%;
+}
+#description{
+    /* background-color: cadetblue; */
+    height: 240px;
+    width: 100%;
+    padding: 40px 70px;
+}
+#description h4{
+    font-size: 23px;
+    padding-top: 20px;
+    font-family: Nexa;
+}
+#description p{
+    font-size: 14px;
+    width: 17%;
+    font-family: CaviarDreams;
+}
+#nav-bottom{
+    /* background-color: rgb(55, 93, 164); */
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+#nav-bottom h3{
+    font-size: 23px;
+    font-family: Bellavoir;
+    letter-spacing: 2px;
+}
+#nav-bottom a{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Recoleta;
+}

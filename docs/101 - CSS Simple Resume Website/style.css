@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #151623;
+    width: 100%;
+    height: fit-content;
+}
+.container1{
+    color: white;
+    padding: 10vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+.container1 h2{
+    text-transform: uppercase;
+    font-size: 6vh;
+    font-weight: 700;
+}
+.container1 h4{
+    font-style: italic;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+.container2{
+    padding: 5vh 0vh;
+    background-color: rgb(237, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+.box{
+    height: fit-content;
+    width: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh 0vh;
+}
+.box h2{
+    text-transform: uppercase;
+    margin-top: 0vh;
+    font-size: 2vw;
+    font-weight: 700;
+}
+.box h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 6vh;
+    width: 70%;
+    margin-top: 3vh;
+    font-weight: 300;
+}
+#about{
+    background-color: white;
+}
+#about p{
+    width: 95%;
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 1.13vw;
+}
+#education{
+    background-color: rgb(173, 221, 251);
+}
+#skills{
+    background-color: rgb(255, 231, 200);
+}
+#projects{
+    background-color: rgb(225, 178, 225);
+}
+#contact{
+    background-color: rgb(172, 218, 246);
+}
+.container3{
+    color: white;
+    padding: 4vh 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3 h4{
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 100;
+}

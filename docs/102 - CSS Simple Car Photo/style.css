@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Racing;
+    src: url(./fonts/RacingEngine-Sharps.otf);
+}
+@font-face {
+    font-family: Gameover;
+    src: url(./fonts/game_over.ttf);
+}
+@font-face {
+    font-family: American;
+    src: url(./fonts/americankestral.ttf);
+}
+@font-face {
+    font-family: A4;
+    src: url(./fonts/A4SPEED-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/bmw-2.avif);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-family: A4;
+    color:#d94242;
+    font-size: 5vw;
+    padding-top: 7.4vh;
+    font-weight: 400;
+}
+.btn{
+    height: 5vh;
+    width: 14vw;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+}
+.btn h3{
+    font-family: American;
+    font-size: 1vw;
+    color: whitesmoke;
+    font-weight: 500;
+}

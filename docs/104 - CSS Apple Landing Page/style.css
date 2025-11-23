@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url(./fonts/Coolvetica\ Rg.otf);
+}
+@font-face {
+    font-family: Nexa;
+    src: url(./fonts/Nexa-Heavy.ttf);
+}
+@font-face {
+    font-family: Nexa-Light;
+    src: url(./fonts/Nexa-ExtraLight.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    position: fixed;
+}
+#nav h3{
+    font-family: Roboto;
+    font-size: 13.5px;
+    font-weight: 400;
+}
+#nav i{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.h1{
+    font-family: Nexa;
+    font-weight: 300;
+    font-size: 75px;
+    margin-top: 40px;
+}
+.h2{
+    font-family: Nexa-Light;
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: -10px;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 27px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-1{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #0071E3;
+    background-color: #0071E3;
+    color: white;
+}
+.btn-2{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #0071E3;
+    color: #0071E3;
+}
+.btn-2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+#hero{
+    height: 100%;
+    width: 100%;
+    background: url(./images/hero_iphone17.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background: url(./images/iphone-air.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background: url(./images/iphone-17.jpg);
+    background-size:contain;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#page4{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    grid-auto-rows: auto; /* rows adjust automatically */
+    gap: 10px;
+    padding: 10px 10px;
+
+}
+.box-dimention{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#box1{
+    background: url(./images/watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box2{
+    background: url(./images/airpods.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background: url(./images/macbookair.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background: url(./images/ipadair.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box5{
+    background: url(./images/tradein.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box6{
+    background: url(./images/applecard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page4 .h1{
+    font-family: Nexa;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 40px;
+}
+#page4 .h1 img{
+    height: 40px;
+}
+#page4 .h2{
+    font-family: Nexa-Light;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+}
+#page4 .btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#page4 .btn-1{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #0071E3;
+    background-color: #0071E3;
+    color: white;
+}
+#page4 .btn-2{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #0071E3;
+    color: #0071E3;
+}
+#page4 .btn-2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+button{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(187, 2, 2);
+}
+button:active{
+    scale: 0.95;
+}

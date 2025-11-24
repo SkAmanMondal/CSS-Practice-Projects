@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: royalblue;
+}
+button:active{
+    scale: 0.95;
+}
+
+.card{
+    width: 550px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.939);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    color: blue;
+}
+.outer{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 50px;
+}
+.inner{
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    border-radius: 50px;
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.bottom p{
+    color: green;
+}

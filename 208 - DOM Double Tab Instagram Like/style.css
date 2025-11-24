@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 550px;
+    width: 380px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card img{
+    height: 440px;
+    width: 340px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card h2{
+    font-size: 30px;
+}
+.card i{
+    font-size: 50px;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0) rotate(-25deg);
+    /* background: linear-gradient(45deg, #ff2d3b, #e87c1d, #d600ee); */
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.do7B3UvryS-yAdNvC59aVQHaHa?pid=Api&P=0&h=180');
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: absolute;
+    transition: all 0.45s cubic-bezier(.78,.98,.49,1.38);
+}
+#img{
+    position: relative;
+    overflow: hidden;
+}

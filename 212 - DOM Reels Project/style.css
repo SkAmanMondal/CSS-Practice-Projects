@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to bottom,black,gray ,black); */
+    background-color: #0F0F0F;
+    padding: 20px;
+}
+#main .section{
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+}
+.all-reels{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+.all-reels::-webkit-scrollbar{
+    display: none;
+}
+.reel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.reel video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.reel .bottom{
+    width: 100%;
+    padding: 30px 30px;
+    position: absolute;
+    background: linear-gradient(to bottom,rgba(128, 128, 128, 0.026),rgba(0, 0, 0, 0.695));
+    bottom: 0%;
+    z-index: 2;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.bottom img{
+    height: 40px;
+    border-radius: 50%;
+}
+.bottom .user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.bottom .user button{
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ellipsis {
+  width: 350px;         /* set the area width */
+  white-space: nowrap;  /* keep text in one line */
+  overflow: hidden;     /* hide extra text */
+  text-overflow: ellipsis; /* show dots (...) */
+}
+
+.reel .right{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: bisque; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 100px;
+    padding-right: 12px;
+}
+.reel .right .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+}
+.reel .right .icon i{
+    font-weight: 500;
+    cursor: pointer;
+}
+.reel .right .icon h3{
+    font-size: 15px;
+}
+
+.like h2 , .like h3{
+    pointer-events: none;
+}
+.like{
+    cursor: pointer;
+}
